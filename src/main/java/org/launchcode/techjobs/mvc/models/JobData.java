@@ -226,7 +226,7 @@ public class JobData {
 
     public static ArrayList<CoreCompetency> getAllCoreCompetency() {
         loadData();
-        allCoreCompetency.sort(new NameSorter());
+        allCoreCompetency.sort(new NameSorter()) ;
         return allCoreCompetency;
     }
 
